@@ -1,0 +1,27 @@
+(Assessment 2) [rajveer@arch Assessment 2]$ python sample_data.py
+Sample data inserted
+
+(Assessment 2) [rajveer@arch Assessment 2]$ python main.py
+{'_id': 222, 'avg_rating': 5.0, 'count': 2, 'title': 'The Alchemist'}
+{'_id': 217, 'avg_rating': 4.0, 'count': 1, 'title': 'Wuthering Heights'}
+{'_id': 218, 'avg_rating': 5.0, 'count': 1, 'title': 'The Picture of Dorian Gray'}
+{'_id': 219, 'avg_rating': 3.0, 'count': 1, 'title': 'Dracula'}
+{'_id': 203, 'avg_rating': 3.0, 'count': 1, 'title': 'The Great Gatsby'}
+{'_id': 214, 'avg_rating': 4.0, 'count': 1, 'title': 'The Odyssey'}
+{'_id': 201, 'avg_rating': 5.0, 'count': 1, 'title': '1984'}
+{'_id': 212, 'avg_rating': 5.0, 'count': 2, 'title': 'The Lord of the Rings'}
+{'_id': 209, 'avg_rating': 4.0, 'count': 2, 'title': 'Fahrenheit 451'}
+{'_id': 213, 'avg_rating': 5.0, 'count': 1, 'title': 'Crime and Punishment'}
+{'_id': 202, 'avg_rating': 4.0, 'count': 2, 'title': 'To Kill a Mockingbird'}
+{'_id': 223, 'avg_rating': 5.0, 'count': 1, 'title': 'Sapiens: A Brief History of Humankind'}
+{'_id': 204, 'avg_rating': 5.0, 'count': 1, 'title': 'Dune'}
+{'_id': 206, 'avg_rating': 4.0, 'count': 1, 'title': 'Pride and Prejudice'}
+{'_id': 215, 'avg_rating': 4.0, 'count': 1, 'title': 'Frankenstein'}
+{'_id': 207, 'avg_rating': 2.0, 'count': 1, 'title': 'The Catcher in the Rye'}
+{'_id': 208, 'avg_rating': 4.0, 'count': 1, 'title': 'Brave New World'}
+{'_id': 205, 'avg_rating': 5.0, 'count': 1, 'title': 'The Hobbit'}
+{'_id': 220, 'avg_rating': 3.0, 'count': 1, 'title': 'A Tale of Two Cities'}
+Book rented successfully.
+{'rental_date': {'$date': '2024-05-01T00:00:00Z'}, 'due_date': {'$date': '2024-05-15T00:00:00Z'}, 'return_date': {'$date': '2024-05-10T00:00:00Z'}, 'title': '1984', 'author': 'George Orwell'}
+{'rental_date': {'$date': '2025-03-01T00:00:00Z'}, 'due_date': {'$date': '2025-03-16T00:00:00Z'}, 'return_date': {'$date': '2025-03-15T00:00:00Z'}, 'title': 'The Hobbit', 'author': 'J.R.R. Tolkien'}
+{'rental_date': datetime.datetime(2025, 6, 10, 6, 48, 10, 345000), 'due_date': datetime.datetime(2025, 6, 24, 6, 48, 10, 345000), 'return_date': None, 'title': '1984', 'author': 'George Orwell'}
