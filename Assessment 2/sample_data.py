@@ -3,11 +3,14 @@ from pymongo import MongoClient
 client = MongoClient("mongodb://localhost:27017/")
 db = client["book_rental_service"]
 
+# `mongoexport --db=book_rental_service --collection=books --type=csv --out=books.csv --fields=_id,title,author,isbn,available_copies,total_copies` was used to export the entries in the DB as CSV
+
 db.books.delete_many({})
 db.users.delete_many({})
 db.rentals.delete_many({})
 db.reviews.delete_many({})
 
+#AI generated entries
 books = [
   { "_id": 201, "title": "1984", "author": "George Orwell", "isbn": "9780451524935", "available_copies": 2, "total_copies": 3 },
   { "_id": 202, "title": "To Kill a Mockingbird", "author": "Harper Lee", "isbn": "9780061120084", "available_copies": 0, "total_copies": 2 },
